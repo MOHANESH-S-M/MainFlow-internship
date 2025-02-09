@@ -13,4 +13,4 @@ def count_vo_cons(s):
         elif i.isalpha():
             count_c+=1
     return f"Count of Vowels: {count_v}, Count of Consonants: {count_c}"
-print(count_vo_cons("this is a string"))
+print(count_vo_cons("this is a string")) 
