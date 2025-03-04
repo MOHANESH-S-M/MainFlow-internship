@@ -34,10 +34,9 @@ def largest_rect(height):
 
         stack.append(i)
 
-    height.pop()  # Remove the sentinel
+    height.pop() 
     return max_area
 
-# Example input
 matrix = [
     ["1", "0", "1", "0", "0"],
     ["1", "0", "1", "1", "1"],
@@ -45,5 +44,5 @@ matrix = [
     ["1", "0", "0", "1", "0"]
 ]
 
-print(max_rectangle(matrix))  # Output: 6
+print(max_rectangle(matrix))  
 
